@@ -14,7 +14,7 @@
 
 ## Galeria
 
-> GIF-y animują się bezpośrednio na GitHubie.
+> GIF-y animują się bezpośrednio na GitHubie (oraz GIF-y nie oddają dobrze tekstur, które widać na goglach VR).
 
 ![Menu główne sterowane dłońmi](media/gifs/01_menu_glowne.gif)
 ![Akt II — jazda przez las](media/gifs/05_akt2_jazda_lasem.gif)
