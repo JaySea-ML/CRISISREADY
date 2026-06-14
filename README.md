@@ -146,14 +146,14 @@ CRISISREADY/
 | **Jakub Cieniuch** | Mechanika gry, integracja z Claude Code, testy |
 | **Wiktoria Bartek** | Testy i feedback |
 | **Oliwia Frueauff** | Scenariusze, formułki zgłoszenia 112 |
-| **Magda Grzesiak** | Assety 3D i dźwięki |
-| **Ada Jankowiak** | Oprawa graficzna, kwestionariusze, artykuł źródłowy |
+| **Magdalena Grzesiak** | Assety 3D i dźwięki |
+| **Adriana Jankowiak** | Oprawa graficzna, kwestionariusze, analiza artykułu źródłowego, opracowanie sprawozdania |
 
 ---
 
 ## Dokumentacja
 
-- 📄 **Sprawozdanie** — [docs/CRISISREADY_sprawozdanie.docx](docs/CRISISREADY_sprawozdanie.docx)
+- 📄 **Sprawozdanie** (pełne, 37 stron) — [docs/CRISISREADY-sprawozdanie.docx](docs/CRISISREADY-sprawozdanie.docx) · [wersja PDF](docs/CRISISREADY-sprawozdanie.pdf)
 - 🖥️ **Prezentacja** — [docs/CRISISREADY_prezentacja.pptx](docs/CRISISREADY_prezentacja.pptx)
 - 🏗️ **Struktura projektu** — [docs/CRISISREADY_struktura.docx](docs/CRISISREADY_struktura.docx)
 - ⚙️ **Instrukcja instalacji / budowania** — [docs/INSTALL.md](docs/INSTALL.md)
