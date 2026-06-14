@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321fe0082e7b1ba449983ebd0052fd33, type: 3}
+  m_Name: act3_call
+  m_EditorClassIdentifier: 
+  scenarioId: act3_call
+  displayName: 'Akt III: Telefon i ukrycie'
+  description: "S\u0142yszysz w\u0142amywacza. Odbierz telefon, wczo\u0142gaj si\u0119
+    pod \u0142\xF3\u017Cko, zadzwo\u0144 na 112 i zachowaj cisz\u0119."
+  microsteps:
+  - id: hide_under_bed
+    label: "Wczo\u0142gaj si\u0119 POD \u0141\xD3\u017BKO"
+    hintText: "Schyl g\u0142ow\u0119 nisko \u2014 schowaj si\u0119 pod \u0142\xF3\u017Ckiem."
+    hintDelaySeconds: 6
+    timeoutSeconds: 90
+    isMandatory: 1
+    isBlocking: 1
+  - id: answer_phone
+    label: "ODBIERZ TELEFON pod \u0142\xF3\u017Ckiem"
+    hintText: "Telefon dzwoni przy Tobie \u2014 sp\xF3jrz na niego, by odebra\u0107."
+    hintDelaySeconds: 2
+    timeoutSeconds: 40
+    isMandatory: 1
+    isBlocking: 1
+  - id: report_intruder
+    label: "Dzie\u0144 dobry. Potrzebuj\u0119 natychmiastowej pomocy. W moim domu jest napastnik."
+    hintText: "Powiedz to szeptem do s\u0142uchawki."
+    hintDelaySeconds: 1.5
+    timeoutSeconds: 40
+    isMandatory: 1
+    isBlocking: 1
+  - id: give_location
+    label: "Warszawa, ulica D\u0142uga 12, mieszkanie 5"
+    hintText: "Podaj adres spokojnie i wyra\u017Anie."
+    hintDelaySeconds: 1.5
+    timeoutSeconds: 40
+    isMandatory: 1
+    isBlocking: 1
+  - id: describe_event
+    label: "Nie wiem"
+    hintText: "Dyspozytor pyta, czy napastnik jest uzbrojony."
+    hintDelaySeconds: 1.5
+    timeoutSeconds: 40
+    isMandatory: 1
+    isBlocking: 1
+  - id: count_victims
+    label: "Nie"
+    hintText: "Dyspozytor pyta, czy kto\u015b jest ranny."
+    hintDelaySeconds: 1.5
+    timeoutSeconds: 35
+    isMandatory: 1
+    isBlocking: 1
+  - id: give_status
+    label: "S\u0142ysz\u0119 go. Chodzi po korytarzu"
+    hintText: "Dyspozytor pyta, gdzie dok\u0142adnie jest napastnik."
+    hintDelaySeconds: 1.5
+    timeoutSeconds: 35
+    isMandatory: 1
+    isBlocking: 1
+  - id: stay_silent
+    label: "LE\u017B CICHO \u2014 patrol jest w drodze"
+    hintText: "W\u0142amywacz przeszukuje pok\xF3j. Nie ruszaj si\u0119 i nie wydawaj
+      d\u017Awi\u0119ku. Czekaj na syreny."
+    hintDelaySeconds: 999
+    timeoutSeconds: 50
+    isMandatory: 1
+    isBlocking: 1
+  defaultScaffolding: 0
+  successThreshold: 0.7

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cbe94d8faeb07468ab5cbd6494a40e, type: 3}
+  m_Name: Act3Config
+  m_EditorClassIdentifier: 
+  secondsBeforePhoneRing: 2.5
+  receiverGrabRadius: 0.15
+  vrTransitionDuration: 1.2
+  speechVolumeThreshold: 0.02
+  minSpeechDuration: 1.5
+  maxTimeForDispatch: 25
+  silenceRequiredDuration: 120
+  silenceVolumeThreshold: 0.03
+  allowedNoiseStrikes: 2
+  thiefSpeed: 0.6
+  thiefLingerDuration: 25
+  sirensDelay: 1
+  doorBreachDelay: 3

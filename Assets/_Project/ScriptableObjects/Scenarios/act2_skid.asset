@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321fe0082e7b1ba449983ebd0052fd33, type: 3}
+  m_Name: act2_skid
+  m_EditorClassIdentifier: 
+  scenarioId: act2_skid
+  displayName: "Akt II: Po\u015Blizg"
+  description: "Jedziesz samochodem. Auto wpada w po\u015Blizg \u2014 odzyskaj kontrol\u0119."
+  microsteps:
+  - id: drive_calm
+    label: "Jed\u017A spokojnie prawym pasem"
+    hintText: "Trzymaj prawy pas obiema r\u0119kami na kierownicy. Za chwil\u0119
+      droga zrobi si\u0119 \u015Bliska."
+    hintDelaySeconds: 6
+    timeoutSeconds: 26
+    isMandatory: 1
+    isBlocking: 1
+  - id: recognize_skid
+    label: "PO\u015ALIZG W PRAWO \u2014 rozpoznaj"
+    hintText: "Ty\u0142 auta ucieka w prawo. Za moment \u0142ap kierownic\u0119."
+    hintDelaySeconds: 3
+    timeoutSeconds: 12
+    isMandatory: 1
+    isBlocking: 1
+  - id: grip_wheel
+    label: "Chwy\u0107 kierownic\u0119 OBIEMA r\u0119kami"
+    hintText: "Z\u0142ap kierownic\u0119 pewnie obiema d\u0142o\u0144mi."
+    hintDelaySeconds: 4
+    timeoutSeconds: 20
+    isMandatory: 1
+    isBlocking: 1
+  - id: counter_steer
+    label: "Kontrasteruj \u2014 skr\u0119\u0107 w stron\u0119 po\u015Blizgu"
+    hintText: "Skr\u0119caj zdecydowanie w prawo, a\u017C auto si\u0119 wyprostuje."
+    hintDelaySeconds: 3
+    timeoutSeconds: 25
+    isMandatory: 1
+    isBlocking: 1
+  - id: stabilize
+    label: Ustabilizuj tor jazdy
+    hintText: "Trzymaj prosto \u2014 auto wraca na kurs."
+    hintDelaySeconds: 4
+    timeoutSeconds: 12
+    isMandatory: 1
+    isBlocking: 1
+  - id: drive_between
+    label: "Jed\u017A dalej \u2014 uwaga na drog\u0119"
+    hintText: "Dobrze! Jed\u017A spokojnie. B\u0105d\u017A got\xF3w na kolejny po\u015Blizg."
+    hintDelaySeconds: 8
+    timeoutSeconds: 40
+    isMandatory: 1
+    isBlocking: 1
+  - id: recognize_skid_l
+    label: "PO\u015ALIZG W LEWO \u2014 rozpoznaj"
+    hintText: "Ty\u0142 auta ucieka w lewo. Za moment \u0142ap kierownic\u0119."
+    hintDelaySeconds: 3
+    timeoutSeconds: 12
+    isMandatory: 1
+    isBlocking: 1
+  - id: counter_steer_l
+    label: "Kontrasteruj \u2014 skr\u0119\u0107 w stron\u0119 po\u015Blizgu"
+    hintText: "Skr\u0119caj zdecydowanie w lewo, a\u017C auto si\u0119 wyprostuje."
+    hintDelaySeconds: 3
+    timeoutSeconds: 25
+    isMandatory: 1
+    isBlocking: 1
+  - id: stabilize_l
+    label: Ustabilizuj tor jazdy
+    hintText: "Trzymaj prosto \u2014 auto wraca na kurs."
+    hintDelaySeconds: 4
+    timeoutSeconds: 12
+    isMandatory: 1
+    isBlocking: 1
+  - id: resume
+    label: "Wr\xF3\u0107 do bezpiecznej jazdy"
+    hintText: "\u015Awietnie! Jed\u017A spokojnie \u2014 za chwil\u0119 zadzwoni
+      telefon."
+    hintDelaySeconds: 6
+    timeoutSeconds: 18
+    isMandatory: 1
+    isBlocking: 1
+  - id: crash
+    label: "UWAGA \u2014 Z NAPRZECIWKA!"
+    hintText: "Ci\u0119\u017Car\xF3wka!"
+    hintDelaySeconds: 999
+    timeoutSeconds: 9
+    isMandatory: 1
+    isBlocking: 1
+  defaultScaffolding: 0
+  successThreshold: 0.7

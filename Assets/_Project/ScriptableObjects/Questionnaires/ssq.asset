@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: ssq
+  m_EditorClassIdentifier: 
+  questionnaireId: ssq
+  title: SSQ (objawy cybersickness)
+  instructions: "Oce\u0144 nasilenie ka\u017Cdego objawu: 0 = brak, 1 = lekkie, 2
+    = umiarkowane, 3 = silne."
+  scaleType: 4
+  items:
+  - id: general_discomfort
+    text: "Og\xF3lny dyskomfort"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: fatigue
+    text: "Zm\u0119czenie"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: headache
+    text: "B\xF3l g\u0142owy"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: eyestrain
+    text: "Zm\u0119czenie oczu"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: difficulty_focusing
+    text: "Trudno\u015B\u0107 z ostro\u015Bci\u0105 widzenia"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: nausea
+    text: "Md\u0142o\u015Bci"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: dizziness
+    text: "Zawroty g\u0142owy"
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0
+  - id: vertigo
+    text: Uczucie wirowania
+    leftAnchor: Brak
+    rightAnchor: Silne
+    reverseScored: 0

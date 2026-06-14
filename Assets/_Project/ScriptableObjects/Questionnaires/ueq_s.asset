@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: ueq_s
+  m_EditorClassIdentifier: 
+  questionnaireId: ueq_s
+  title: "UEQ-S (do\u015Bwiadczenie u\u017Cytkownika)"
+  instructions: "Wybierz warto\u015B\u0107 bli\u017Csz\u0105 okre\u015Bleniu kt\xF3re
+    pasuje (1-7)."
+  scaleType: 2
+  items:
+  - id: ueq1
+    text: "Og\xF3lne wra\u017Cenie wsparcia"
+    leftAnchor: "Przeszkadzaj\u0105cy"
+    rightAnchor: "Wspieraj\u0105cy"
+    reverseScored: 0
+  - id: ueq2
+    text: "Z\u0142o\u017Cono\u015B\u0107 obs\u0142ugi"
+    leftAnchor: Skomplikowany
+    rightAnchor: Prosty
+    reverseScored: 0
+  - id: ueq3
+    text: "Efektywno\u015B\u0107"
+    leftAnchor: Nieefektywny
+    rightAnchor: Efektywny
+    reverseScored: 0
+  - id: ueq4
+    text: "Przejrzysto\u015B\u0107"
+    leftAnchor: "Myl\u0105cy"
+    rightAnchor: Przejrzysty
+    reverseScored: 0
+  - id: ueq5
+    text: Pobudzenie
+    leftAnchor: Nudny
+    rightAnchor: "Ekscytuj\u0105cy"
+    reverseScored: 0
+  - id: ueq6
+    text: Zainteresowanie
+    leftAnchor: Nieciekawy
+    rightAnchor: "Interesuj\u0105cy"
+    reverseScored: 0
+  - id: ueq7
+    text: "Innowacyjno\u015B\u0107"
+    leftAnchor: Konwencjonalny
+    rightAnchor: Nowatorski
+    reverseScored: 0
+  - id: ueq8
+    text: "Kreatywno\u015B\u0107"
+    leftAnchor: Zwyczajny
+    rightAnchor: "Tw\xF3rczy"
+    reverseScored: 0

@@ -1,0 +1,54 @@
+# ==== Unity (generowane automatycznie — Unity odtworzy po otwarciu) ====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.vs/
+.vsconfig
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+*.stackdump
+.idea/
+ExportedObj/
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+
+# ==== Foldery robocze (skrypty pomocnicze + pliki tymczasowe — nie część gry) ====
+/_gifcap/
+/_docx/
+/_pptx/
+
+# ==== Nieużywany asset > 100 MB (limit GitHub; brak referencji w projekcie) ====
+/Assets/_Project/External/Act3/ZombieHitman/
+
+# ==== System ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# osierocony folder-meta wykluczonego assetu
+/Assets/_Project/External/Act3/ZombieHitman.meta
+
+# build temp + konfiguracje narzedzi
+/.utmp/
+.mcp.json

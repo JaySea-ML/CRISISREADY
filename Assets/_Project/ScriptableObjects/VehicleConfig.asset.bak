@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00d32899070ae049bb0140883a1579f, type: 3}
+  m_Name: VehicleConfig
+  m_EditorClassIdentifier: 
+  secondsBeforeSkid: 8
+  initialSkidAngleDeg: 35
+  skidGrowthRateDeg: 8
+  catastrophicAngleDeg: 80
+  maxSteeringAngleDeg: 540
+  steeringFullLockDeg: 95
+  steeringCorrectionRate: 45
+  minCorrectionRatio: 0.55
+  recoveryAngleThresholdDeg: 5
+  recoveryHoldDuration: 1.5
+  skidTimeout: 12
+  gripRadius: 0.18
+  gripHoldToStart: 0.4

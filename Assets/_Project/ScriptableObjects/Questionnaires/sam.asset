@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: sam
+  m_EditorClassIdentifier: 
+  questionnaireId: sam
+  title: SAM (samoocena emocji)
+  instructions: "Oce\u0144 sw\xF3j stan emocjonalny po sesji (1-9)."
+  scaleType: 5
+  items:
+  - id: valence
+    text: "Nastr\xF3j (przyjemno\u015B\u0107)"
+    leftAnchor: Nieprzyjemny
+    rightAnchor: Przyjemny
+    reverseScored: 0
+  - id: arousal
+    text: Pobudzenie
+    leftAnchor: Spokojny
+    rightAnchor: Pobudzony
+    reverseScored: 0
+  - id: dominance
+    text: Poczucie kontroli
+    leftAnchor: "Uleg\u0142y"
+    rightAnchor: "Dominuj\u0105cy"
+    reverseScored: 0

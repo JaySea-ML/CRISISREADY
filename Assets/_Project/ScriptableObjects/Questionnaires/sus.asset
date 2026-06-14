@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: sus
+  m_EditorClassIdentifier: 
+  questionnaireId: sus
+  title: "SUS (u\u017Cyteczno\u015B\u0107 systemu)"
+  instructions: "Oce\u0144 zgodno\u015B\u0107: 1 = zdecydowanie si\u0119 nie zgadzam,
+    5 = zdecydowanie si\u0119 zgadzam."
+  scaleType: 0
+  items:
+  - id: sus1
+    text: "Ch\u0119tnie korzysta\u0142bym z tego systemu cz\u0119sto."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 0
+  - id: sus2
+    text: "System by\u0142 niepotrzebnie skomplikowany."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 1
+  - id: sus3
+    text: "System by\u0142 \u0142atwy w u\u017Cyciu."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 0
+  - id: sus4
+    text: "Potrzebowa\u0142bym wsparcia technicznego, by go u\u017Cywa\u0107."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 1
+  - id: sus5
+    text: "Funkcje systemu by\u0142y dobrze zintegrowane."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 0
+  - id: sus6
+    text: "System by\u0142 zbyt niesp\xF3jny."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 1
+  - id: sus7
+    text: "Wi\u0119kszo\u015B\u0107 os\xF3b szybko nauczy si\u0119 systemu."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 0
+  - id: sus8
+    text: "System by\u0142 uci\u0105\u017Cliwy w u\u017Cyciu."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 1
+  - id: sus9
+    text: "Czu\u0142em si\u0119 pewnie, korzystaj\u0105c z systemu."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 0
+  - id: sus10
+    text: "Musia\u0142em si\u0119 wiele nauczy\u0107, zanim zacz\u0105\u0142em."
+    leftAnchor: "Nie zgadzam si\u0119"
+    rightAnchor: "Zgadzam si\u0119"
+    reverseScored: 1

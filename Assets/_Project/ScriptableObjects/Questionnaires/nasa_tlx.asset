@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: nasa_tlx
+  m_EditorClassIdentifier: 
+  questionnaireId: nasa_tlx
+  title: "NASA-TLX (obci\u0105\u017Cenie zadaniem)"
+  instructions: "Oce\u0144 ka\u017Cdy wymiar od niskiego (0) do wysokiego (20)."
+  scaleType: 3
+  items:
+  - id: mental
+    text: "Obci\u0105\u017Cenie umys\u0142owe: jak bardzo wymagaj\u0105ce umys\u0142owo
+      by\u0142o zadanie?"
+    leftAnchor: Niskie
+    rightAnchor: Wysokie
+    reverseScored: 0
+  - id: physical
+    text: "Obci\u0105\u017Cenie fizyczne: jak bardzo wymagaj\u0105ce fizycznie?"
+    leftAnchor: Niskie
+    rightAnchor: Wysokie
+    reverseScored: 0
+  - id: temporal
+    text: "Presja czasu: jak bardzo czu\u0142e\u015B presj\u0119 tempa?"
+    leftAnchor: Niska
+    rightAnchor: Wysoka
+    reverseScored: 0
+  - id: performance
+    text: "Wydajno\u015B\u0107: jak skuteczny by\u0142e\u015B w realizacji?"
+    leftAnchor: "Doskona\u0142a"
+    rightAnchor: "S\u0142aba"
+    reverseScored: 0
+  - id: effort
+    text: "Wysi\u0142ek: ile musia\u0142e\u015B w\u0142o\u017Cy\u0107 pracy?"
+    leftAnchor: "Ma\u0142y"
+    rightAnchor: "Du\u017Cy"
+    reverseScored: 0
+  - id: frustration
+    text: "Frustracja: jak bardzo by\u0142e\u015B zniech\u0119cony/zestresowany?"
+    leftAnchor: "Ma\u0142a"
+    rightAnchor: "Du\u017Ca"
+    reverseScored: 0

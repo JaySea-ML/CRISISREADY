@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4843180e9221542b13e66793658854, type: 3}
+  m_Name: ipq
+  m_EditorClassIdentifier: 
+  questionnaireId: ipq
+  title: "IPQ (poczucie obecno\u015Bci)"
+  instructions: "Oce\u0144 zgodno\u015B\u0107 od 1 (nie) do 7 (tak)."
+  scaleType: 1
+  items:
+  - id: ipq_g1
+    text: "Mia\u0142em poczucie, \u017Ce jestem w wirtualnym \u015Bwiecie."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_sp1
+    text: "Czu\u0142em, \u017Ce obiekty wirtualne s\u0105 wok\xF3\u0142 mnie."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_sp2
+    text: "Mia\u0142em wra\u017Cenie dzia\u0142ania w wirtualnej przestrzeni."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_sp3
+    text: "Wirtualny \u015Bwiat wydawa\u0142 si\u0119 realniejszy ni\u017C obraz."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_inv1
+    text: "By\u0142em poch\u0142oni\u0119ty wirtualnym \u015Bwiatem."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_inv2
+    text: "Nie zwraca\u0142em uwagi na realne otoczenie."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_real1
+    text: "Wirtualny \u015Bwiat wydawa\u0142 si\u0119 autentyczny."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
+  - id: ipq_real2
+    text: "Reakcje obiekt\xF3w by\u0142y realistyczne."
+    leftAnchor: Nie
+    rightAnchor: Tak
+    reverseScored: 0
