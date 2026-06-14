@@ -153,8 +153,7 @@ CRISISREADY/
 
 ## Dokumentacja
 
-- 📄 **Sprawozdanie** (pełne, 37 stron) — [docs/CRISISREADY-sprawozdanie.docx](docs/CRISISREADY-sprawozdanie.docx) · [wersja PDF](docs/CRISISREADY-sprawozdanie.pdf)
-- 🖥️ **Prezentacja** — [docs/CRISISREADY_prezentacja.pptx](docs/CRISISREADY_prezentacja.pptx)
+- 📄 **Sprawozdanie** (pełne, 41 stron) — [docs/CRISISREADY-sprawozdanie.docx](docs/CRISISREADY-sprawozdanie.docx) · [wersja PDF](docs/CRISISREADY-sprawozdanie.pdf)
 - 🏗️ **Struktura projektu** — [docs/CRISISREADY_struktura.docx](docs/CRISISREADY_struktura.docx)
 - ⚙️ **Instrukcja instalacji / budowania** — [docs/INSTALL.md](docs/INSTALL.md)
 - 🖼️ **Zrzuty ekranu** — [docs/screenshots/](docs/screenshots)
